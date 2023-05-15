@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import { getRandomHexColor } from './getRandomHexColor';
+import './statistics.styled.css';
 
 const Statistics = ({ stats }) => {
   return (

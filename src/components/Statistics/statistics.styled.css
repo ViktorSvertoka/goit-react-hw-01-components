@@ -1,0 +1,32 @@
+.statistics {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  padding: 60px 60px;
+  background-color: blanchedalmond;
+}
+
+.title {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+
+  background-color: white;
+}
+
+.stat-list {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+
+  justify-content: center;
+}
+
+.item {
+  padding: 10px 5px;
+  width: 50px;
+}
