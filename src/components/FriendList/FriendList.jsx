@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import './friendlist.styled.css';
 
 const friendPropTypes = {
   avatar: PropTypes.string.isRequired,

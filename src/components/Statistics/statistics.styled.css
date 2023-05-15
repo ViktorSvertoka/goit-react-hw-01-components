@@ -26,7 +26,12 @@
   justify-content: center;
 }
 
-.item {
+.stat-list > li {
   padding: 10px 5px;
   width: 50px;
+}
+
+.percentage {
+  font-weight: 700;
+  font-size: 18px;
 }
