@@ -1,5 +1,11 @@
 import PropTypes from 'prop-types';
 
+const friendPropTypes = {
+  avatar: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  isOnline: PropTypes.bool.isRequired,
+};
+
 const FriendListItem = ({ avatar, name, isOnline }) => (
   <li className="item">
     <span className={`status ${isOnline ? 'online' : 'offline'}`}></span>
@@ -8,11 +14,7 @@ const FriendListItem = ({ avatar, name, isOnline }) => (
   </li>
 );
 
-FriendListItem.propTypes = {
-  avatar: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
-  isOnline: PropTypes.bool.isRequired,
-};
+FriendListItem.propTypes = friendPropTypes;
 
 const FriendList = ({ friends }) => (
   <ul className="friend-list">
@@ -30,9 +32,7 @@ const FriendList = ({ friends }) => (
 FriendList.propTypes = {
   friends: PropTypes.arrayOf(
     PropTypes.shape({
-      avatar: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired,
-      isOnline: PropTypes.bool.isRequired,
+      ...friendPropTypes,
       id: PropTypes.number.isRequired,
     })
   ).isRequired,
