@@ -25,7 +25,7 @@
 відображати інформацію про користувача соціальної мережі. Дані про користувача
 лежать у файлі [user.json](./user.json).
 
-![Прев'ю компонента Profile](./preview.png)
+![Прев'ю компонента Profile](./assets/preview-01.png)
 
 ## Опис компонента `<Profile>`
 
@@ -90,7 +90,7 @@ import user from 'путь/к/user.json;
 веб-сторінки користувачами різних країн, фінансові витрати тощо. Дані про
 статистику лежать у файлі [data.json](./data.json).
 
-![Прев'ю компонента Statistics](./preview.jpg)
+![Прев'ю компонента Statistics](./assets/preview-02.jpg)
 
 ## Опис компонента
 
@@ -146,7 +146,7 @@ import data from '/путь/к/data.json';
 відображати інформацію про друзів користувача. Інформація про друзів
 зберігається у файлі [friends.json](./friends.json).
 
-![Прев'ю компонента FriendList](./preview.jpg)
+![Прев'ю компонента FriendList](./assets/preview-03.jpg)
 
 ## Опис компонента `<FriendList>`
 
@@ -194,7 +194,7 @@ import friends from 'путь/к/friends.json';
 Необхідно створити компонент історії транзакцій в особистому кабінеті
 інтернет-банку.
 
-![Прев'ю компонента TransactionHistory](./preview.jpg)
+![Прев'ю компонента TransactionHistory](./assets/preview-04.jpg)
 
 Дані для списку доступні у форматі JSON у файлі
 [transactions.json](./transactions.json). Це масив об'єктів, кожен об'єкт описує
