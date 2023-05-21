@@ -7,6 +7,7 @@ import {
   Tag,
   Location,
   Stats,
+  ListItem,
   Label,
   Quantity,
 } from './Profile.styled';
@@ -22,18 +23,18 @@ const Profile = ({ username, tag, location, avatar, stats }) => {
       </Description>
 
       <Stats>
-        <li>
+        <ListItem>
           <Label>Followers</Label>
           <Quantity>{stats.followers}</Quantity>
-        </li>
-        <li>
+        </ListItem>
+        <ListItem>
           <Label>Views</Label>
           <Quantity>{stats.views}</Quantity>
-        </li>
-        <li>
+        </ListItem>
+        <ListItem>
           <Label>Likes</Label>
           <Quantity>{stats.likes}</Quantity>
-        </li>
+        </ListItem>
       </Stats>
     </ProfileWrap>
   );

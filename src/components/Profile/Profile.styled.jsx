@@ -1,29 +1,30 @@
 import styled from '@emotion/styled';
 
 export const ProfileWrap = styled.div`
-  width: 340px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 300px;
+  margin: 0 auto;
   padding: 70px 50px;
   background-color: darkgrey;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 `;
 
 export const Description = styled.div`
   width: 200px;
   height: 220px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   padding: 30px;
   background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 `;
 
 export const Avatar = styled.img`
   width: 100px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 20px;
   border-radius: 50%;
-  margin-bottom: 20px;
 `;
 
 export const Name = styled.p`
@@ -45,26 +46,43 @@ export const Location = styled.p`
 `;
 
 export const Stats = styled.ul`
-  width: 200px;
+  width: 262px;
+  height: 100px;
   background-color: gainsboro;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 30px;
+  margin: 0 auto;
   display: flex;
-  gap: 40px;
+  justify-content: space-between;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  list-style-type: none;
+`;
+
+export const ListItem = styled.li`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid gray;
+  flex: 1;
+  text-align: center;
+
+  &:not(:last-child) {
+    border-right: 1px solid gray;
+  }
 `;
 
 export const Label = styled.span`
-  width: 40px;
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: 10px;
 `;
 
 export const Quantity = styled.span`
-  width: 40px;
   display: flex;
   align-items: center;
+  justify-content: center;
   font-weight: 700;
   font-size: 18px;
 `;

@@ -7,6 +7,8 @@ export const StatisticsSection = styled.section`
   width: 300px;
   padding: 60px 60px;
   background-color: blanchedalmond;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 `;
 
 export const Title = styled.h2`
@@ -17,6 +19,10 @@ export const Title = styled.h2`
   text-align: center;
   text-transform: uppercase;
   background-color: white;
+  font-size: 20px;
+  font-weight: 700;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 `;
 
 export const StatList = styled.ul`
@@ -24,6 +30,7 @@ export const StatList = styled.ul`
   margin-right: auto;
   display: flex;
   justify-content: center;
+  padding: 0;
 `;
 
 export const StatItem = styled.li`
@@ -31,6 +38,7 @@ export const StatItem = styled.li`
   width: 50px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 `;
 
 export const Label = styled.span`
