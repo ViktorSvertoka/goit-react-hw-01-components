@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const ProfileWrap = styled.div`
-  width: 300px;
+  width: 340px;
   margin: 0 auto;
   padding: 70px 50px;
   background-color: darkgrey;
@@ -10,11 +10,11 @@ export const ProfileWrap = styled.div`
 `;
 
 export const Description = styled.div`
-  width: 200px;
+  width: 240px;
   height: 220px;
   margin: 0 auto;
   padding: 30px;
-  background-color: white;
+  background-color: #ffffff;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -46,7 +46,7 @@ export const Location = styled.p`
 `;
 
 export const Stats = styled.ul`
-  width: 262px;
+  width: 302px;
   height: 100px;
   background-color: gainsboro;
   margin: 0 auto;
